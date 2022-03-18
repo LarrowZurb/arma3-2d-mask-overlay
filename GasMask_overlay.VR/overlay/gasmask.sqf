@@ -4,6 +4,7 @@ params ["_unit"];
 protection = "G_Balaclava_blk";
 
 // If you want the overlay to be hidden when viewing the map ,change "true" to "false" in the below line.
+// RscCBRN_APR_02 is provided by Arma 3 contact. For other Contact overlays reffer to the CBRN wiki here: https://community.bistudio.com/wiki/Arma_3:_CBRN
 fnc_overlay = { 0 cutRsc ["RscCBRN_APR_02","PLAIN", 1, true];	sleep 0.1;};
 
 // to use custom texture uncomment below
