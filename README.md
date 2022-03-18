@@ -13,7 +13,8 @@ In the below example the equipment is set to G_Balaclava_blk
 Change line 28  from `(goggles _unit isEqualTo protection)` to `(headgear _unit isEqualTo protection)` if the item which you want is located in a different slot, like headgear.
 
 ## Notes:
-If you wish to use the Arma 3 Contact DLC cbrn gear, keep in mind that the unit (cbrn_specialist) spawns with "G_AirPurifyingRespirator_01_nofilter_F" and later respawns with "G_AirPurifyingRespirator_01_F".
+* If you wish to use the Arma 3 Contact DLC cbrn gear, keep in mind that the unit (cbrn_specialist) spawns with "G_AirPurifyingRespirator_01_nofilter_F" and later respawns with "G_AirPurifyingRespirator_01_F".
+* If you whish to change the default sounds provided with this script, you can find free samples here https://freesound.org/home/. Audacity can be used to edit the sound according to your needs and exported to .ogg format.
 
 
 ## Features:
