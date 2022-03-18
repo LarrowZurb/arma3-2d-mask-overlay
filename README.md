@@ -14,6 +14,7 @@ If you wish to use the Arma 3 Contact DLC cbrn gear, keep in mind that the unit 
 
 
 ## Features:
+* gasmask.sqf compiled to memory and lodaded from there instead of reading from disk each time.
 * Custom overlays
 * Custom sounds for equip/uneqip & breathing.
 * Multiplayer compatible
