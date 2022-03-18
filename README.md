@@ -29,5 +29,8 @@ If you wish to use the Arma 3 Contact DLC cbrn gear, keep in mind that the unit 
 * Optimize the code to have less impact on the client
 * Create a singleplayer version of this script
 
+## Lessons learned:
+* gasmask.sqf and unit_init.sqf had functions with the same name "fnc_overlay". This essentially froze the script, keep that in mind if you modify this script.
+
 ## Credits for the original script to ALIAS.
 https://steamcommunity.com/sharedfiles/filedetails/?id=909790601
