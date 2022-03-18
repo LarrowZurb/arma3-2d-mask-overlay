@@ -2,6 +2,9 @@
 This is a heavily modified version of the overlay from the script "Radiation - DEMO" made by ALIAS.
 The script is intended for use with multiplayer missions. With minor modification the script will work with singleplayer.
 
+When a player respawns the player object is changed to new one, this esentially renderes scripts for overlay useless in mulitplayer.
+To overcome this, the script uses a Respawn Handler created in the unit_init.sqf. When a player respawns the handler invokes the gasmask.sqf with arguments pointing to the current player object.
+
 ## How to use
 Edit gasmask.sqf and change line 4 to the equipment you want to trigger the overlay.
 In the below example the equipment is set to G_Balaclava_blk
